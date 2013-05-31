@@ -1,8 +1,3 @@
-magmaconftalk
-=============
-
-Magmaconf talk
-
 # Intro
 
 I'm Sonya
