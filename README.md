@@ -93,6 +93,15 @@ These situations can be stressful, which means we need to able to stay calm and 
 
 ## Kelly notes
 
+the best talk advice i have received. organize according to the big three:
+
+1. Framework: here is a way of seeing the world (a belief, a challenge, a way of working, etc.)
+
+2. Insights: here are reasons why (supporting evidence, facts, actions, etc.)
+
+3. Tools: here's how you can go do the same/similar (ideas, advice, etc.)
+
+
 Know
 * more about support thinking
 * you don't have to be a tech person or hire only tech people to do this
