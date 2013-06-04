@@ -16,8 +16,7 @@ We ship little things all the time.
   (note of someone saying "I did this thing, no one should notice, let us know if you see anything weird")
 We ship big things too. 
 Here's what the average user-noticable but fairly routine/well tested feature 
-Use graphs more to show the dropoff feeling. Find an example (something the audience may be aware of) as a normal graph, then show this one.
-
+Use graphs more to show the dropoff feeling. 
 
 One time, we shipped a UI change to our Issues feature. 
 This change happened in the beginning of April. 
