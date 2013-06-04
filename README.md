@@ -82,6 +82,8 @@ I'm not a developer, and I didn't need to understand the code to be able to make
 
 I'm not a dev, just analytical. Your support people may already be like this.
 
+Support's not told "just deal with it". We have power. We still deal with whatever is rolled out (yay, continuous deployment). We fully embrace the "ah, they'll get used to it" aspect. If the spike doesn't drop, that's when you have this kind of situation.
+
 I have ownership access to github/github, I don't know other companies whose support people do. But I have access to read the PRs, to add issues directly to GH. I've read PRs from the designers, I know something about how they work. This made me understand what was important, and comfortable to share this.
 
 (more here, show that we're way over on the side of +support+ from the company where no one communicates beyond support)
