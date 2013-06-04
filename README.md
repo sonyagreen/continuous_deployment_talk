@@ -15,6 +15,10 @@ You may know, we ship early and often.
 We ship little things all the time.
   (note of someone saying "I did this thing, no one should notice, let us know if you see anything weird")
 We ship big things too. 
+Here's what the average user-noticable but fairly routine/well tested feature 
+Use graphs more to show the dropoff feeling. Find an example (something the audience may be aware of) as a normal graph, then show this one.
+
+
 One time, we shipped a UI change to our Issues feature. 
 This change happened in the beginning of April. 
 This is what our Issues used to look like
@@ -42,7 +46,7 @@ in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbi
 
 3 lessons: how we fixed it
 
-First, compiled list of what I though were clearly bugs. This is the softball lob. 
+First, compiled list of what I though were clearly bugs. This is the softball lob. How is it that I know what a legimitate bug is (as opposed to user's opinion, or unretestable)
 
 Second, the biggest UI complaint: that the label colors were too pastel, and the background grey, which is all fine et dandy if you're on a giant retina display, but maybe not on a smaller, older screen. 
 
@@ -70,13 +74,15 @@ My job is to champion for the users, in ways that best make sense ot the develop
 
 ## Reasons why I did this
 
-[what's the rationale for doing this?]
-knowledge of the design team/gh team is why I did it the way I did
-My inherent cred as a supportocat meant it was OK, and make it public
+1. helps you find true bugs
+2. what's just people bitching, and will calm down in x days (where x is determined by your userbase)
+3. Problems that warrant discussion, even if you don't change anything
+
+
+## here's how you can apply this
 
 You may not have GH/ownership access. But you can do this.
 
-## here's how you can apply this
 
 I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, or if you know your company has one?
 
