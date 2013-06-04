@@ -1,9 +1,3 @@
-Magmaconf talk
-
-Questions for Julie
-
-* where is it OK to grab images from?
-
 # Intro
 
 I'm Sonya. I work for GitHub, answering support requests. My team has 14 people on it. GitHub has xmillion accounts, and we get about y support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
