@@ -56,6 +56,9 @@ This has a big component to it, that I learned from the library world but is als
 
 (show stats and quotes)
 
+(label quoet)
+We dogfood github, but we're not the majority.
+
 Third, since I'd written up all this info so far, I figured they'd like to know about the long tail. (They would want to see everything everything)
 
 I tl;dr'd the rest of the things, so they knew. There weren't THAT many, and they weren't that bad. Key: I summarized them.
