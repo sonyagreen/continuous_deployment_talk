@@ -1,8 +1,8 @@
-# Intro
+## Intro
 
 I'm Sonya. I work for GitHub, answering support requests. My team has 14 people on it. GitHub has xmillion accounts, and we get about y support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
 
-You should give a fuck about what I'm about to talk about because
+## You should give a fuck about what I'm about to talk about because
 
 Our developers see that we're doing the best we can to help them: duplicate/validate bugs, pull in screenshots, do the legwork to make it easy for them to understand and want to fix the problems. They respect us for that, and take time to make our lives easier too. It takes more effort on our part to write up, but less time overall when we help them find what's important and they fix things fast.
 
