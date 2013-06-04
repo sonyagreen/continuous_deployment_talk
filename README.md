@@ -17,6 +17,7 @@ We ship little things all the time.
 We ship big things too. 
 Here's what the average user-noticable but fairly routine/well tested feature 
 Use graphs more to show the dropoff feeling. 
+When there's more than just a small splash, the support team will start amassing what we call an "incident report" - PR/issues already known, prp, tldr, canned responses.
 
 One time, we shipped a UI change to our Issues feature. 
 This change happened in the beginning of April. 
@@ -38,7 +39,7 @@ So, I looked at the queue of support requests with varying concerns, and I thoug
 * and inflexible thinking
 * and also totally reasonable concerns
 
-in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. I decided instead of immediately opening 8 different issues (which never goes over well), I wrote up one dossier. I presented the whole of it, in a way that wasn't overwhelming.
+in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. I decided instead of immediately opening 8 different issues (which never goes over well), I wrote up one dossier. I presented the whole of it, in a way that wasn't overwhelming. 
 (fuck yeah, "dossier", love that word. maybe define)
 
 
