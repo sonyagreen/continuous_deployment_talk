@@ -16,7 +16,7 @@ We ship little things all the time.
   (note of someone saying "I did this thing, no one should notice, let us know if you see anything weird")
 We ship big things too. 
 Here's what the average user-noticable but fairly routine/well tested feature 
-Use graphs more to show the dropoff feeling. 
+Use graphs more to show the dropoff feeling.
 When there's more than just a small splash, the support team will start amassing what we call an "incident report" - PR/issues already known, prp, tldr, canned responses.
 
 One time, we shipped a UI change to our Issues feature. 
