@@ -70,7 +70,7 @@ What came of all this? Having a low-angst dossier with lots of places to dig in 
 
 Now, we don't often roll things back, so it's impressive. I'm proud of them. 
 
-My job is to champion for the users, in ways that best make sense ot the developers. I'm motivated to write up excellent bug reports, because that makes the developers more likely to fix them sooner, which is good for the users! This can be an awesome, supportive cycle if you let it. 
+My job is to champion for the users, in ways that best make sense ot the developers. Emopathy going both directions. I'm motivated to write up excellent bug reports, because that makes the developers more likely to fix them sooner, which is good for the users! This can be an awesome, supportive cycle if you let it. 
 
 ## Reasons why I did this
 
@@ -80,6 +80,8 @@ My job is to champion for the users, in ways that best make sense ot the develop
 
 
 ## here's how you can apply this
+
+(make punchier - more bullet points)
 
 You may not have GH/ownership access. But you can do this.
 
@@ -95,10 +97,3 @@ I have ownership access to github/github, I don't know other companies whose sup
 (more here, show that we're way over on the side of +support+ from the company where no one communicates beyond support)
 
 These situations can be stressful, which means we need to able to stay calm and pragmatic. Personally, whenever I start to realize I'm losing my cool, I turn to animated gifs. You have to find your own power gif., but I'll leave you with my favorite. 
-
-
-
-
-
-
-
