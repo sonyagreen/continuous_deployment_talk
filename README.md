@@ -63,14 +63,16 @@ Third, since I'd written up all this info so far, I figured they'd like to know 
 
 I tl;dr'd the rest of the things, so they knew. There weren't THAT many, and they weren't that bad. Key: I summarized them.
 
-I was super nervous about showing this to others. I spent most of a day on it, and I figured I could just keep it to myself, and it was still useful to get a sense of the landscape. But, I fuckin' shipped it. I made it available to the GitHub design team (our workflow is that we have a private repository called support/ which we use to spec out potential clusters of tickets that indicate a problem, and we can @mention a team (like @design) to send them all a notification of it).
+I was super nervous about showing this to others. I spent most of a day on it, and I figured I could just keep it to myself, and it was still useful to get a sense of the landscape. But, I fuckin' shipped it. I made it available to the GitHub design team (our workflow is that we have a private repository called support/ which we use to spec out potential clusters of tickets that indicate a problem, and we can @mention a team (like @design) to send them all a notification of it). I thought this could be seen as a monkey wrench in what they rolled out, harmful and distracting rather than helpful, but ... 
 
 Turns out, they loved it
 (quote)
 
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs, they discussed the label colors, and ultimately decided to revert them.
+What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readibilty ... and ultimately decided to roll back the label color change.
 
-Now, we don't tend to revert things, and I don't expect us to do this frequently, but it's impressive. I'm proud of them. My job is to champion for the users, in ways that best make sense ot the developers. I'm motivated to write up excellent bug reports, because that makes the developers more likely to fix them sooner, which is good for the users! This can be an awesome, supportive cycle if you let it. 
+Now, we don't often roll things back, so it's impressive. I'm proud of them. 
+
+My job is to champion for the users, in ways that best make sense ot the developers. I'm motivated to write up excellent bug reports, because that makes the developers more likely to fix them sooner, which is good for the users! This can be an awesome, supportive cycle if you let it. 
 
 ## Reasons why I did this
 
@@ -83,6 +85,10 @@ You may not have GH/ownership access. But you can do this.
 ## here's how you can apply this
 
 I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, or if you know your company has one?
+
+I'm not a dev, just analytical. Your support people may already be like this.
+
+I have ownership access to github/github, I don't know other companies whose support people do. But I have access to read the PRs, to add issues directly to GH. I've read PRs from the designers, I know something about how they work. This made me understand what was important, and comfortable to share this.
 
 (more here, show that we're way over on the side of +support+ from the company where no one communicates beyond support)
 
