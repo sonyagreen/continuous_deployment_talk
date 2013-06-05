@@ -4,32 +4,31 @@ Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense 
 
 ## You should give a fuck about what I'm about to talk about because
 
-You may know, GitHub ships early and often. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding when we have bugs.)
+You may know, GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding when we have bugs.)
 
-So here's our secret to continuous deployment and supporting it happily: developers and support collaborate.
+We ship little things all the time.* These are blips on our radar. We often don't know about them until they've shipped and we get a heads up.
+We ship really big things too. When these happen, we are looped into the pull request, and have used the feature in staff-only mode.
+
+So here's our secret to continuous deployment big and small, and supporting it happily: developers and support collaborate.
 
 Support is inherently motivated to write excellent bug reports. Why? If we make it easy for the developer to see what's wrong, it lets them start to think about what needs to be fixed. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. They're grateful to not have to do the extra work. This means they're more likely to care about the bug (because we've shown we already care), and jump on fixing it. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
 
-A good bug report involves duplicating the bug to make sure it's not one of those things like a weird browser or user error ( we once were alerted to a unpressable button ... using the Wii browser.) 
+A good bug report involves duplicating the bug to make sure it's not one of those things like a weird browser or user error (*we once were alerted to a unpressable button ... when we asked what browser, they told us: the Wii browser.) 
 
-A good bug report involves duplicating the bug and listing the steps to recreate. It involves screenshots when proving a point. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when two seemingly unrelated problems could be connected. Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at complaints all day. If they have a sense of pattern recognition, they'll pick it up. Writing up bug reports well means they'll practice this, and get good at it.
+A good bug report involves taking the time to list the steps to recreate. It involves screenshots when it would otherwise require the developer to go check it themselves. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) 
 
-So, like I said, developers and support collaborate. We communicate in the Issues. 
+Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at complaints all day. If they have a sense of pattern recognition, they'll pick up on it. Writing up bug reports well means they'll practice finding the bugs, and they'll get good at it.
 
-Here's another secret: we really, really try to have low ego. 
+So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Yes, everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
 
-We ship little things all the time.* These are blips on our radar. We often don't know about them until they've shipped and we get a heads up.
-We ship really big things too. When these happen, we are looped into the pull request, and have used the feature.
+I'm going to give you a sense of a "normal" support load for a new feature. 
+When there's more than just a small splash, the support team will start amassing what we call an "incident report" - tldr, PR/issues already known, prp, canned responses.
 
-To illustrate this, I'm going to tell you a story. 
+Here's another secret: we really, really try to have low ego. To illustrate this, I'm going to tell you a little story. 
 
-This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge feature either. Sometimes, 
+This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge rollout either. Sometimes, you ship something that you think is going to go out with a whisper, and surprises you.
 
-First let me give you a sense of what "normal" is for a new feature. *Here's what the average user-noticable but fairly routine/well tested feature 
-When there's more than just a small splash, the support team will start amassing what we call an "incident report" - PR/issues already known, prp, tldr, canned responses.
-
-One time, we shipped a UI change to our Issues feature. 
-This change happened in the beginning of April. 
+So, a few months ago, we shipped a UI change to GitHub Issues. 
 This is what our Issues used to look like
 (screenshot)
 This is what we shipped
