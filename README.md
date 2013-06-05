@@ -1,5 +1,3 @@
-change to 300
-
 bug reports - the point is that support does it, it takes a bunch of time, but we care enough to do it
 
 Unique: we have access to PRs, so even if we don't read code, we read comments, which gives HUGE context. Discussion around it is helpful. Support brings the perspective of the user, so we're actually shaping
@@ -17,39 +15,57 @@ What came of all this? Having a low-angst dossier with lots of places to dig in 
 
 ## Intro
 
-Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats. GitHub has 3.5 million accounts (I even removed the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
+Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats (on any one day, there are about 10 answering support requests). GitHub has 3.5 million accounts, and we get something like 300 new support requests per day. I'm here to talk with you about supporting GitHub's continuous deployment workflow and a couple of interesting things we've learned at GitHub.
 
 ## You should give a fuck about what I'm about to talk about because
 
-You may know, GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding when we have bugs.)
+You may know, GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding about the bugs.)
 
-We ship little things all the time.* These are blips on our radar. We often don't know about them until they've shipped and we get a heads up.
-We ship really big things too. When these happen, we are looped into the pull request, and have used the feature in staff-only mode.
+We ship little things all the time.* These are blips on our graph. We often don't know about them until they've shipped and we get a heads up.
 
-So here's our secret to continuous deployment big and small, and supporting it happily: developers and support collaborate.
+We ship really big features too (a recent example is the contributions graph). When these happen, we are looped into the pull request, and have used the feature in staff-only mode.
 
-Support is inherently motivated to write excellent bug reports. Why? If we make it easy for the developer to see what's wrong, it lets them start to think about what needs to be fixed. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. They're grateful to not have to do the extra work. This means they're more likely to care about the bug (because we've shown we already care), and jump on fixing it. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
+So here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate.
 
-A good bug report involves duplicating the bug to make sure it's not one of those things like a weird browser or user error (*we once were alerted to a unpressable button ... when we asked what browser, they told us: the Wii browser.) 
+GitHub support often writes up bug reports (we use our Issues feature for this).
 
-A good bug report involves taking the time to list the steps to recreate. It involves screenshots when it would otherwise require the developer to go check it themselves. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) 
+Support is inherently motivated to write comprehensive bug reports. Why? 
+* we start seeing bugs reported from users
+* users give us valuable clues (well, from our users we get annotated screenshots and output dumps)
+* we want to fix bugs fast (fewer tickets, get to reply to users who reported the bug, get to say "it should be fixed now")
 
-Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at complaints all day. If they have a sense of pattern recognition, they'll pick up on it. Writing up bug reports well means they'll practice finding the bugs, and they'll get good at it.
+So we make it easy for the developer to see what's wrong and fix it fast. 
+ * duplicate & recreate bug
+ * make sure it's not user error or something like an unsupported browser (*we once had a user report a site bug ... when we asked what browser, they told us: the Wii browser ... which technically is Opera, which isn't one of our supported browsers.)
+
+Support people have analytical skills (or, as I prefer to think of it, spidey sense) to know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) Unless you're looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
+
+If you have all of this in front of you:
+
+* you can start to think about what needs to be fixed
+* you may feel grateful to not have to reproduce or write it up
+* more likely to care about the bug (because we've shown we already care by writing it up with care, and by showing what there is to care about)
+
+It takes effort on our part to write up great bug reports, but less time overall when we help the developers find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
+
+Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at user-reported problems all day. If they have a sense of pattern recognition (*ahem* spidey sense), they'll pick up on it. Writing up bug reports well means they'll get to understand "what's a bug, what's a feature", and they'll write up stellar issues!
 
 So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Yes, everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
 
-I'm going to give you a sense of a "normal" support load for a new feature. 
-* figure out bugs
-* humans are known to hate change. When you change to something new, inevitably someone will say "I LOVED the old way, you should go back to the old way".
+Back to that continuous deployment, I'm going to give you a sense of a "normal" support load for a new feature. Say it's a big feature*. 
+* figure out legit bugs, get on those
+* people can really hate when things change. When you update to something new, inevitably someone will say "I LOVED the old way, you need to go back to the old way".
 * long tail of complicated bugs, workflows that were affected, people on vacation/casual users
 
-Here's another secret: we really, really try to have low ego. To illustrate this, I'm going to tell you a little story. 
+Here's another secret: we really, really try to have low ego about this. To illustrate this, I'm going to tell you a little story. 
 
-This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge rollout either. Sometimes, you ship something that you think is going to go out with a whisper, and you get surprised by backlash [maybe not "backlash", but "depth and breadth of user opinion".
+This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that surprised us with the amount of responses. Sometimes, you ship something that you think is going to be easy to support,  you get surprised by the depth and breadth of your users' opinions.
 
 So, a few months ago, we rolled out a UI change to GitHub Issues.*
 
-Within hours of the deployment, support was getting a steady of feedback from users. The design team had worked HARD on this. They were proud of the aesthetic. In all this feedback, there were the usual reports of straight-up bugs, a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard ... but in these were also concerns about the lack of readability.
+Within hours of the deployment, support was getting a steady stream of feedback from users. The design team had worked HARD on this. They were proud of the design aesthetic. 
+
+In all this feedback, there were the usual reports of straight-up bugs, a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard ... but mixed in were also concerns about the lack of readability. This wasn't a bug -- the site was displaying as intended, but the things the users were saying was cause for thought.
 
 Looking at the queue of support requests with varying concerns, and we needed a way to look at
 * a bunch of data
@@ -114,4 +130,6 @@ I have ownership access to github/github, I don't know other companies whose sup
 
 (more here, show that we're way over on the side of +support+ from the company where no one communicates beyond support)
 
-These situations can be stressful, which means we need to able to stay calm and pragmatic. Personally, whenever I start to realize I'm losing my cool, I turn to animated gifs. You have to find your own power gif., but I'll leave you with my favorite. 
+These situations can be stressful, which means we need to able to stay calm and pragmatic. Personally, whenever I start to realize I'm losing my cool, I turn to animated gifs. You have to find your own power gif., but I'll leave you with my favorite.
+
+I've left extra time for questions, because I've gotten pretty good at responding to questions. 
