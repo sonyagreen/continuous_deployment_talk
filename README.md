@@ -1,6 +1,6 @@
 ## Intro
 
-I'm Sonya. I work for GitHub, answering support requests. My team has 14 people on it. GitHub has 3.5 million accounts (I even took out the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
+Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats. GitHub has 3.5 million accounts (I even took out the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
 
 ## You should give a fuck about what I'm about to talk about because
 
