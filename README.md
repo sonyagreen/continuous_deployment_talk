@@ -1,20 +1,24 @@
 ## Intro
 
-Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats. GitHub has 3.5 million accounts (I even took out the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
+Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats. GitHub has 3.5 million accounts (I even removed the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
 
 ## You should give a fuck about what I'm about to talk about because
 
-Our developers see that we're doing the best we can to help them: duplicate/validate bugs, pull in screenshots, do the legwork to make it easy for them to understand and want to fix the problems. They respect us for that, and take time to make our lives easier too. It takes more effort on our part to write up, but less time overall when we help them find what's important and they fix things fast.
+You may know, GitHub ships early and often. 
+We ship little things all the time.* These are blips on our radar.
+We ship really big things too. These are big spikes, and we have a process to handle the wave of new support requests.
 
-We collaborate. And have low ego. To help explain this, I'm going to tell you a story. 
+Here's our secret: the developers see that we're doing the best we can to help them: when we see new types of bugs we duplicate/validate. We add screenshots, and generally do the legwork to make it easy for the developer to understand and be motivated to fix the problems. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us.
 
-This is a story is an example of continuous deployment at GitHub, and something we figured out to do when there's a lot of resistance to a change we make to the site.
-https://github.com/github/support/issues/23
+We collaborate. And have low ego. 
 
-You may know, we ship early and often. 
-We ship little things all the time.
-  (note of someone saying "I did this thing, no one should notice, let us know if you see anything weird")
-We ship big things too. 
+To illustrate this, I'm going to tell you a story. 
+
+This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge feature either. Sometimes, 
+
+
+First let me give you a sense of what "normal" is for a new feature.
+
 Here's what the average user-noticable but fairly routine/well tested feature 
 Use graphs more to show the dropoff feeling.
 When there's more than just a small splash, the support team will start amassing what we call an "incident report" - PR/issues already known, prp, tldr, canned responses.
