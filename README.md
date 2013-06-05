@@ -4,18 +4,19 @@ Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense 
 
 ## You should give a fuck about what I'm about to talk about because
 
-You may know, GitHub ships early and often. We have lots of users, who do complicated technical things with GitHub. 
+You may know, GitHub ships early and often. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding when we have bugs.)
 
-Here's our secret: support generally does the legwork to make it easy for the developer to understand and be motivated to fix the problems. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us.
+So here's our secret to continuous deployment and supporting it happily: developers and support collaborate.
 
-Support is motivated to write excellent bug reports. Why? If we make it easy for the developer to see what's wrong, it lets them start to think about what needs to be fixed. They are grateful for not having to do extra work. This means they're more likely to care about the bug (because we've shown we already care), and jump on fixing it.
+Support is inherently motivated to write excellent bug reports. Why? If we make it easy for the developer to see what's wrong, it lets them start to think about what needs to be fixed. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. They're grateful to not have to do the extra work. This means they're more likely to care about the bug (because we've shown we already care), and jump on fixing it. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
 
 A good bug report involves duplicating the bug to make sure it's not one of those things like a weird browser or user error ( we once were alerted to a unpressable button ... using the Wii browser.) 
 
-A good bug report involves duplicating the bug and listing the steps to recreate. It involves screenshots when proving a point. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when two seemingly unrelated problems could be connected.
+A good bug report involves duplicating the bug and listing the steps to recreate. It involves screenshots when proving a point. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when two seemingly unrelated problems could be connected. Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at complaints all day. If they have a sense of pattern recognition, they'll pick it up. Writing up bug reports well means they'll practice this, and get good at it.
 
+So, like I said, developers and support collaborate. We communicate in the Issues. 
 
-We collaborate. And have low ego. 
+Here's another secret: we really, really try to have low ego. 
 
 We ship little things all the time.* These are blips on our radar. We often don't know about them until they've shipped and we get a heads up.
 We ship really big things too. When these happen, we are looped into the pull request, and have used the feature.
@@ -91,8 +92,9 @@ My job is to champion for the users, in ways that best make sense ot the develop
 
 (make punchier - more bullet points)
 
-You may not have GH/ownership access. But you can do this.
+Your support may not have GH/ownership access. But you can do this.
 
+* work with your support team to get those bug notes out of their heads and down in a report. Honestly, it's hard to want to write it up well when there are other requests piling up, but you can make them <3 you for it, by thanking them for the work, by fixing things fast or at least reporting why you can't. This makes support able to return to those users and either get to deliver good news (which is a job we love), or be able to manage the users' expectations better.
 
 I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, or if you know your company has one?
 
