@@ -4,23 +4,27 @@ Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense 
 
 ## You should give a fuck about what I'm about to talk about because
 
-You may know, GitHub ships early and often. 
-We ship little things all the time.* These are blips on our radar.
-We ship really big things too. These are big spikes, and we have a process to handle the wave of new support requests.
+You may know, GitHub ships early and often. We have lots of users, who do complicated technical things with GitHub. 
 
-Here's our secret: the developers see that we're doing the best we can to help them: when we see new types of bugs we duplicate/validate. We add screenshots, and generally do the legwork to make it easy for the developer to understand and be motivated to fix the problems. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us.
+Here's our secret: support generally does the legwork to make it easy for the developer to understand and be motivated to fix the problems. They respect us for that, and in return take time to fix bugs and help us answer the tricky questions. It takes more effort on our part to write up great bug reports, but less time overall when we help them find what's important and they fix things fast. That means happier users, and overall less work for us.
+
+Support is motivated to write excellent bug reports. Why? If we make it easy for the developer to see what's wrong, it lets them start to think about what needs to be fixed. They are grateful for not having to do extra work. This means they're more likely to care about the bug (because we've shown we already care), and jump on fixing it.
+
+A good bug report involves duplicating the bug to make sure it's not one of those things like a weird browser or user error ( we once were alerted to a unpressable button ... using the Wii browser.) 
+
+A good bug report involves duplicating the bug and listing the steps to recreate. It involves screenshots when proving a point. It involves using analytical skills (or, as I prefer to think of it, spidey sense) to know when two seemingly unrelated problems could be connected.
+
 
 We collaborate. And have low ego. 
+
+We ship little things all the time.* These are blips on our radar. We often don't know about them until they've shipped and we get a heads up.
+We ship really big things too. When these happen, we are looped into the pull request, and have used the feature.
 
 To illustrate this, I'm going to tell you a story. 
 
 This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge feature either. Sometimes, 
 
-
-First let me give you a sense of what "normal" is for a new feature.
-
-Here's what the average user-noticable but fairly routine/well tested feature 
-Use graphs more to show the dropoff feeling.
+First let me give you a sense of what "normal" is for a new feature. *Here's what the average user-noticable but fairly routine/well tested feature 
 When there's more than just a small splash, the support team will start amassing what we call an "incident report" - PR/issues already known, prp, tldr, canned responses.
 
 One time, we shipped a UI change to our Issues feature. 
