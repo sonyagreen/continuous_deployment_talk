@@ -1,3 +1,20 @@
+change to 300
+
+bug reports - the point is that support does it, it takes a bunch of time, but we care enough to do it
+
+Unique: we have access to PRs, so even if we don't read code, we read comments, which gives HUGE context. Discussion around it is helpful. Support brings the perspective of the user, so we're actually shaping
+
+support is part of the CD cycle - TALK ABOUT THIS MORE
+* ship something, +The Support Room
+* async - always someone around to help even if you've signed off
+* pace can be fast
+
+ui change -- ui update
+
+>What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI
+
+What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new update
+
 ## Intro
 
 Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats. GitHub has 3.5 million accounts (I even removed the spammy ones for ya), and we get about 250-300 support requests per day. I'm here to talk with you about supporting continuous deployment and some of the lessons we've learned at GitHub.
