@@ -22,24 +22,19 @@ Your support team can do this. They don't need access to the code, and they cert
 So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Yes, everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
 
 I'm going to give you a sense of a "normal" support load for a new feature. 
-When there's more than just a small splash, the support team will start amassing what we call an "incident report" - tldr, PR/issues already known, prp, canned responses.
+* figure out bugs
+* humans are known to hate change. When you change to something new, inevitably someone will say "I LOVED the old way, you should go back to the old way".
+* long tail of complicated bugs, workflows that were affected, people on vacation/casual users
 
 Here's another secret: we really, really try to have low ego. To illustrate this, I'm going to tell you a little story. 
 
-This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge rollout either. Sometimes, you ship something that you think is going to go out with a whisper, and surprises you.
+This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that was no small blip, but not a huge rollout either. Sometimes, you ship something that you think is going to go out with a whisper, and you get surprised by backlash [maybe not "backlash", but "depth and breadth of user opinion".
 
-So, a few months ago, we shipped a UI change to GitHub Issues. 
-This is what our Issues used to look like
-(screenshot)
-This is what we shipped
-(screenshot of Shades of Grey) 
-Within hours of the deployment, support was getting a steady of feedback from users.
-Now, humans are known to hate change. When you change to something new, inevitably someone will say "I LOVED the old way, you should go back to the old way".
-In all this feedback, there were reports of some straight-up bugs, a lot of general I-liked-it-the-way-it-was comments ... this is pretty standard ... but then there were also some concerns about the lack of readability.
+So, a few months ago, we rolled out a UI change to GitHub Issues.*
 
-The design team had worked HARD on this. They were proud of the aesthetic.
+Within hours of the deployment, support was getting a steady of feedback from users. The design team had worked HARD on this. They were proud of the aesthetic. In all this feedback, there were the usual reports of straight-up bugs, a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard ... but in these were also concerns about the lack of readability.
 
-So, I looked at the queue of support requests with varying concerns, and I thought about the best way to present 
+Looking at the queue of support requests with varying concerns, and we needed a way to look at
 * a bunch of data
 * from humans (our humans, our users)
 * that was emotional
@@ -47,10 +42,7 @@ So, I looked at the queue of support requests with varying concerns, and I thoug
 * and inflexible thinking
 * and also totally reasonable concerns
 
-in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. I decided instead of immediately opening 8 different issues (which never goes over well), I wrote up one dossier. I presented the whole of it, in a way that wasn't overwhelming. 
-(fuck yeah, "dossier", love that word. maybe define)
-
-
+in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. Digestible. Instead of immediately opening 8 different issues (which never goes over well), it first was condensed into one document. I've taken to calling it a dossier*. 
 
 3 lessons: how we fixed it
 
