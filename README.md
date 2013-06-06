@@ -1,6 +1,6 @@
 ## Intro
 
-Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
+Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day, and we reply on average to 550 times. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
 
 ## You should give a fuck about what I'm about to talk about because
 
