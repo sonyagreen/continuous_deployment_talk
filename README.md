@@ -14,7 +14,7 @@ Unique: we have access to PRs, so even if we don't read code, we read comments, 
 
 ## Intro
 
-Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense of what our support team is dealing with, we have 14 supportocats (on any one day, there are about 10 answering support requests). GitHub has 3.5 million accounts, and we get something like 300 new support requests per day. I'm here to talk with you about supporting GitHub's continuous deployment workflow and a couple of interesting things we've learned at GitHub.
+Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team is dealing with, we have 14 supportocats (on any one day, there are about 10 answering support requests). GitHub has 3.5 million accounts, and we get something like 300 new support requests per day. I'm here to talk with you about supporting GitHub's continuous deployment workflow and a couple of interesting things we've learned at GitHub.
 
 ## You should give a fuck about what I'm about to talk about because
 
