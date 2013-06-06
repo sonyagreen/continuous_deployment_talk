@@ -94,30 +94,16 @@ Support's job is to champion for the users, in ways that best make sense ot the 
 
 ## Reasons why I did this
 
-So, to 
-1. helps you find true bugs
-2. what's just people bitching, and will calm down in x days (where x is determined by your userbase)
-3. Problems that warrant discussion, even if you don't change anything
+So, if you have a support team, consider how you can work together. The incoming skill level for support varies widely, but any good support person can learn the analytical skills to become a bug hunter. You can leverage their inherent knowledge of your users. Get that knowledge about your bugs out of their heads.
 
+From the perspective of support, honestly, it's hard to want to write up a good bug report when there are other support requests piling up, but you can make love you <3 you for it, by thanking them for the help, by fixing things fast or at least letting them know why you can't. This makes support able to return to those users and either get to deliver good news (which is something we love), or be able to manage the users' expectations in the reply.
 
-## here's how you can apply this
+I want you to know, I don't know how to code, and I didn't need to understand GitHub's code to be able to do my job well. Your support team, however they're working with you, however technical their knowledge, can work with you.
 
-(make punchier - more bullet points)
+Together, you can then fix bugs faster and get on to the next adventure.
 
-Your support may not have GH/ownership access. But you can do this.
+On fixing those sticky problems like our UI change, remember that when you can check your ego, you can talk pragmatically. This means you can discuss problems well. If you can stay open-minded about what needs to happen next, and not get distracted about saving your baby, you can look a problem and feel like it was worth discussing, even if you don't change a thing.
 
-* work with your support team to get those bug notes out of their heads and down in a report. Honestly, it's hard to want to write it up well when there are other requests piling up, but you can make them <3 you for it, by thanking them for the work, by fixing things fast or at least reporting why you can't. This makes support able to return to those users and either get to deliver good news (which is a job we love), or be able to manage the users' expectations better.
+Situations like a the story I told can be stressful, which means we need to able to stay calm and pragmatic. 
 
-I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, can do this too.
-
-I'm not a dev, just analytical. Your support people may already be like this.
-
-GitHub support's not told "just deal with it". We have power. We still deal with whatever is rolled out (yay, continuous deployment). We fully embrace the "ah, they'll get used to it" aspect. If the spike doesn't drop, that's when you have this kind of situation.
-
-I have ownership access to github/github, I don't know other companies whose support people do. But I have access to read the PRs, to add issues directly to GH. I've read PRs from the designers, I know something about how they work. This made me understand what was important, and comfortable to share this.
-
-(more here, show that we're way over on the side of +support+ from the company where no one communicates beyond support)
-
-These situations can be stressful, which means we need to able to stay calm and pragmatic. Personally, whenever I start to realize I'm losing my cool, I turn to animated gifs. You have to find your own power gif., but I'll leave you with my favorite.
-
-I've left extra time for questions, because I've gotten pretty good at responding to developers' questions. Come at me, bro.
+So here's my Pro Tip™: whenever I start to realize I'm losing my cool, I turn to animated gifs. Now, you have to find your own power gif., but I'll leave you with my favorite.
