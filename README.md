@@ -1,17 +1,6 @@
-bug reports - the point is that support does it, it takes a bunch of time, but we care enough to do it
+
 
 Unique: we have access to PRs, so even if we don't read code, we read comments, which gives HUGE context. Discussion around it is helpful. Support brings the perspective of the user, so we're actually shaping
-
-support is part of the CD cycle - TALK ABOUT THIS MORE
-* ship something, +The Support Room
-* async - always someone around to help even if you've signed off
-* pace can be fast
-
-ui change -- ui update
-
->What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI
-
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new update
 
 ## Intro
 
@@ -20,6 +9,11 @@ Hi! I'm Sonya. I work for GitHub, with the support team. So you have some sense 
 ## You should give a fuck about what I'm about to talk about because
 
 You may know, GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding about the bugs.)
+
+At GitHub, the support team is part of the continuous deployment workflow.
+* ship something, +The Support Room
+* async - always someone around to help even if you've signed off
+* pace can be fast
 
 We ship little things all the time.* These are blips on our graph. We often don't know about them until they've shipped and we get a heads up.
 
@@ -61,7 +55,7 @@ Here's another secret: we really, really try to have low ego about this. To illu
 
 This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that surprised us with the amount of responses. Sometimes, you ship something that you think is going to be easy to support,  you get surprised by the depth and breadth of your users' opinions.
 
-So, a few months ago, we rolled out a UI change to GitHub Issues.*
+So, a few months ago, we rolled out a UI update to GitHub Issues.*
 
 Within hours of the deployment, support was getting a steady stream of feedback from users. The design team had worked HARD on this. They were proud of the design aesthetic. 
 
@@ -99,7 +93,7 @@ I was super nervous about showing this to others. I spent most of a day on it, a
 Turns out, they loved it
 (quote)
 
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readibilty ... and ultimately decided to roll back the label color change.
+What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readibilty ... and ultimately decided to roll back the label color change.
 
 Now, we don't often roll things back, so it's impressive. I'm proud of them. 
 
