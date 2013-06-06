@@ -1,4 +1,14 @@
+# This is how it should go, right? (notes to encorporate)
 
+support is part of CD
+
+story of Issues
+
+unique things we're doing:
+we have access to PRs
+we write issues
+WoS
+KoD
 
 Unique: we have access to PRs, so even if we don't read code, we read comments, which gives HUGE context. Discussion around it is helpful. Support brings the perspective of the user, so we're actually shaping
 
