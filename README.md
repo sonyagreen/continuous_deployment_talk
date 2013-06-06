@@ -1,16 +1,3 @@
-# This is how it should go, right? (notes to encorporate)
-
-support is part of CD
-
-story of Issues
-
-unique things we're doing:
-* we have access to PRs
-* we write issues
-* WoS
-* KoD
-
-
 ## Intro
 
 Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
@@ -52,26 +39,26 @@ As a developer, if you have this great bug report in front of you:
 
 It takes effort on our part to write up great bug reports, but less time overall when we help the developers find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
 
-Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at user-reported problems all day. If they have a sense of pattern recognition, they'll pick up on it. Writing up bug reports well means they'll get to understand "what's a bug, what's a feature", and they'll write up stellar issues!
+Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at user-reported problems all day. If they have a sense of pattern recognition, they'll pick up on it. Writing up bug reports well means they'll get to understand the difference between a true bug (when what you meant the code to do and what users are experiencing are two different things), and when a user wants something different than what you made. In either case, support needs to know the difference. 
 
-So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Yes, everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
+So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
 
 Back to that continuous deployment, I'm going to give you a sense of a "normal" support load for a new feature. Say it's a big feature*. 
 * figure out legit bugs, get on those
 * people can really hate when things change. When you update to something new, inevitably someone will say "I LOVED the old way, you need to go back to the old way".
 * long tail of complicated bugs, workflows that were affected, people on vacation/casual users
 
-Here's another secret: we really, really try to have low ego about this. To illustrate this, I'm going to tell you a little story. 
+Here's another secret: we really, really try to have low ego about bugs. In fact, GitHub hires for low ego. People need to be able to talk pragmatically about what's going on. It can be really hard to scrutinize hard work you've done -- like calling your baby ugly. To illustrate this point, I'm going to tell you a little story. 
 
-This is a story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that surprised us with the amount of responses. Sometimes, you ship something that you think is going to be easy to support,  you get surprised by the depth and breadth of your users' opinions.
+This story is an example of continuous deployment at GitHub, and something we figured out to do when we have a feature that surprised us with the amount of support responses. Sometimes, you ship something that you think is going to be easy to support,  you get surprised by the depth and breadth of bugs and functionality.
 
-So, a few months ago, we rolled out a UI update to GitHub Issues.*
+So, a few months ago, we rolled out a UI update to GitHub Issues.* This was mostly driven by the design team, but I want to mention that most of our designers are developers, so through this story, I'm talking about this team.
 
-Within hours of the deployment, support was getting a steady stream of feedback from users. The design team had worked HARD on this. They were proud of the design aesthetic. 
+Within hours of the deployment, support was getting a steady stream of feedback from users. The design team had worked HARD on this. They were proud of the design aesthetic, as well as the functionality changes that were part of the update.
 
-In all this feedback, there were the usual reports of straight-up bugs, a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard ... but mixed in were also concerns about the lack of readability. This wasn't a bug -- the site was displaying as intended, but the things the users were saying was cause for thought.
+Sorting through the feedback, there were the usual reports of straight-up bugs, a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard ... but mixed in were also concerns about the lack of readability. This wasn't a bug -- the site was displaying as intended, but the things the users were saying was cause for thought.
 
-Looking at the queue of support requests with varying concerns, and we needed a way to look at
+Looking at the queue of support requests with varying concerns, we needed a way to look at:
 * a bunch of data
 * from humans (our humans, our users)
 * that was emotional
@@ -79,38 +66,35 @@ Looking at the queue of support requests with varying concerns, and we needed a 
 * and inflexible thinking
 * and also totally reasonable concerns
 
-in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. Digestible. Instead of immediately opening 8 different issues (which never goes over well), it first was condensed into one document. I've taken to calling it a dossier*. 
+in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. They didn't need to read things like this.* Digestible. Instead of immediately opening 8 different issues (which never goes over well), we condensed into one document. I've taken to calling this a dossier*. 
 
-3 lessons: how we fixed it
+So, here's how we fixed it
 
-First, compiled list of what I though were clearly bugs. This is the softball lob. How is it that I know what a legimitate bug is (as opposed to user's opinion, or unretestable)
+First, we compiled list of what seemed to clearly be bugs. This is the softball lob for the developers, there are easily identifiable actions to take to fix this.
 
-Second, the biggest UI complaint: that the label colors were too pastel, and the background grey, which is all fine et dandy if you're on a giant retina display, but maybe not on a smaller, older screen. 
+Second, we complied information about the biggest UI complaint: that the label colors were too pastel, and the background grey, which is all fine et dandy if you're on a giant retina display, but maybe not on a smaller, older screen. 
 
-This has a big component to it, that I learned from the library world but is also A Thing in the UX world: stats and stories. Stats alone fall flat, especially with those who understand to be sketical about flashy stats. The other part is what I like to call "when it hits you in the feel" -- when a user's explanation of the problem is more eloquent than your own understanding of it. 
+There's something to know here. To convey a problem in a way that is gripping, use stats and stories. Stats are important*, but fall flat on their own. (side note: these are links to our support system, called Halp)
 
-(show stats and quotes)
+The other part is what is called "when it hits you right in the feel"* -- when a user's explanation of the problem is more eloquent than what you could describe. It means more, coming from an actual user, an actual person out there.
 
-(label quoet)
-We dogfood github, but we're not the majority.
+We dogfood github, but we're not the majority. None of us are, which is a reason to find a way to keep your finger on the pulse of your actual users.
 
-Third, since I'd written up all this info so far, I figured they'd like to know about the long tail. (They would want to see everything everything)
+This dossier was written up so support could summarize everything, get a sense of the landscape. I was super nervous about showing this to the design team. I figured we could just keep it to ourselves, and it was still useful. But, I fuckin' shipped it. I made it available to the GitHub design team (our workflow is that we have a private repository called support/ which we use to spec out potential clusters of tickets that may be a problem, and we can @mention a team (like @design) to send them all a notification of it). I was worried that the design team loved their work so much, that this would feel like a hit over the head, harmful and distracting rather than helpful, but ... 
 
-I tl;dr'd the rest of the things, so they knew. There weren't THAT many, and they weren't that bad. Key: I summarized them.
+Turns out, they loved it * *
 
-I was super nervous about showing this to others. I spent most of a day on it, and I figured I could just keep it to myself, and it was still useful to get a sense of the landscape. But, I fuckin' shipped it. I made it available to the GitHub design team (our workflow is that we have a private repository called support/ which we use to spec out potential clusters of tickets that indicate a problem, and we can @mention a team (like @design) to send them all a notification of it). I thought this could be seen as a monkey wrench in what they rolled out, harmful and distracting rather than helpful, but ... 
+They jumped on bug fixes right away, and started a conversation about how to address the readability problems.
 
-Turns out, they loved it
-(quote)
+What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. * aaaand *
 
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readibilty ... and ultimately decided to roll back the label color change.
+Now, we don't often roll back big visible UI changes, so it's impressive. They did what was right for users, not what they wanted. I'm proud of them. 
 
-Now, we don't often roll things back, so it's impressive. I'm proud of them. 
-
-My job is to champion for the users, in ways that best make sense ot the developers. Emopathy going both directions. I'm motivated to write up excellent bug reports, because that makes the developers more likely to fix them sooner, which is good for the users! This can be an awesome, supportive cycle if you let it. 
+Support's job is to champion for the users, in ways that best make sense ot the developers. Empathy goes both directions - to our users, and to our developers. We're motivated to write up excellent bug reports, because that makes the developers happy, and more likely to fix them sooner, which is good for the users! It is an awesome, supportive cycle.
 
 ## Reasons why I did this
 
+So, to 
 1. helps you find true bugs
 2. what's just people bitching, and will calm down in x days (where x is determined by your userbase)
 3. Problems that warrant discussion, even if you don't change anything
