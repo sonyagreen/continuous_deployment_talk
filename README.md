@@ -10,49 +10,49 @@ unique things we're doing:
 * WoS
 * KoD
 
-Unique: we have access to PRs, so even if we don't read code, we read comments, which gives HUGE context. Discussion around it is helpful. Support brings the perspective of the user, so we're actually shaping
 
 ## Intro
 
-Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, and how support fits into i and a couple of interesting things we've learned.
+Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
 
 ## You should give a fuck about what I'm about to talk about because
 
-You may know, GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users who understand our products nearly as well as we do. (BTW: this is amazing. Users debug stuff for us, offer solutions and are understanding about the bugs.)
+GitHub ships early and often*. We have lots of users, who do complicated technical things with GitHub. We have many support requests coming from users, who understand our products nearly as well as we do. (BTW: this is amazing. Because our userbase is developers, they debug stuff for us, and even suggest solutions. They're understanding about the bugs, like "hey, we get bugs too!")
 
 At GitHub, the support team is part of the continuous deployment workflow.
-* ship something, +The Support Room
-* async - always someone around to help even if you've signed off
+* ship something, +support chat room
+* async - always someone around in chat to help even if you've signed off
 * pace can be fast
 
-We ship little things all the time.* These are blips on our graph. We often don't know about them until they've shipped and we get a heads up.
+But here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate.
 
-We ship really big features too (a recent example is the contributions graph). When these happen, we are looped into the pull request, and have used the feature in staff-only mode.
+We ship little things all the time.* These are blips on our graph. We often don't know about them until they've shipped and we get a heads up. We don't need to know about them beforehand, because they don't generate a lot of support requests.
 
-So here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate.
+We ship really big features too (a recent example is the contributions graph*). When these happen, we are looped into the pull request before it's done, and get to experience it in staff-only mode before it's released to everyone.
 
-GitHub support often writes up bug reports (we use our Issues feature for this).
+Another way we collaborate is that the support team has access to all the code and issues. From what I know of other companies, this is unique: we have access to PRs, so even if we don't read code, we can read the associated comments and discussion, which gives HUGE context when figuring out what's going on, and what to tell the user.
 
-Support is inherently motivated to write comprehensive bug reports. Why? 
+GitHub support often writes up bug reports (at GitHub, we use our Issues feature for bug tracking).
+
+Support is inherently motivated to track down bugs and write really good bug reports. Why? 
 * we start seeing bugs reported from users
-* users give us valuable clues (well, from our users we get annotated screenshots and output dumps)
-* we want to fix bugs fast (fewer tickets, get to reply to users who reported the bug, get to say "it should be fixed now")
+* users give us valuable clues in how they describe what's wrong (well, from our users we get annotated screenshots and ¿output dumps?)
+* support wants to fix bugs fast (stop the flow of reports of the same problem from many people; get to reply to users who reported the bug, get to say "it should be fixed now")
 
 So we make it easy for the developer to see what's wrong and fix it fast. 
- * duplicate & recreate bug
+ * duplicate & recreate steps bug
  * make sure it's not user error or something like an unsupported browser (*we once had a user report a site bug ... when we asked what browser, they told us: the Wii browser ... which technically is Opera, which isn't one of our supported browsers.)
 
-Support people have analytical skills (or, as I prefer to think of it, spidey sense) to know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) Unless you're looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
+Support people have analytical skills (or, as I prefer to think of it, spidey sense) We know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) Unless YOU'RE looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
 
-If you have all of this in front of you:
-
-* you can start to think about what needs to be fixed
-* you may feel grateful to not have to reproduce or write it up
-* more likely to care about the bug (because we've shown we already care by writing it up with care, and by showing what there is to care about)
+As a developer, if you have this great bug report in front of you:
+* you can start to see what needs to be fixed
+* you may feel relief to not have to reproduce or document it
+* more likely to care about the bug (because we've shown we already care by writing it up carefully, and by showing what there is to care about)
 
 It takes effort on our part to write up great bug reports, but less time overall when we help the developers find what's important and they fix things fast. That means happier users, and overall less work for us because it stems the flow of incoming reports of said bug.
 
-Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at user-reported problems all day. If they have a sense of pattern recognition (*ahem* spidey sense), they'll pick up on it. Writing up bug reports well means they'll get to understand "what's a bug, what's a feature", and they'll write up stellar issues!
+Your support team can do this. They don't need access to the code, and they certainly don't need to have a technical background. They're looking at user-reported problems all day. If they have a sense of pattern recognition, they'll pick up on it. Writing up bug reports well means they'll get to understand "what's a bug, what's a feature", and they'll write up stellar issues!
 
 So, like I said, GitHub developers and support collaborate. We communicate together in the Issues, and in our support system. Yes, everyone at GitHub has access to our support system. Transparency means we all can know what's going on.
 
@@ -124,11 +124,11 @@ Your support may not have GH/ownership access. But you can do this.
 
 * work with your support team to get those bug notes out of their heads and down in a report. Honestly, it's hard to want to write it up well when there are other requests piling up, but you can make them <3 you for it, by thanking them for the work, by fixing things fast or at least reporting why you can't. This makes support able to return to those users and either get to deliver good news (which is a job we love), or be able to manage the users' expectations better.
 
-I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, or if you know your company has one?
+I'm not a developer, and I didn't need to understand the code to be able to make this dossier. Your support team, however they're working with you, can do this too.
 
 I'm not a dev, just analytical. Your support people may already be like this.
 
-Support's not told "just deal with it". We have power. We still deal with whatever is rolled out (yay, continuous deployment). We fully embrace the "ah, they'll get used to it" aspect. If the spike doesn't drop, that's when you have this kind of situation.
+GitHub support's not told "just deal with it". We have power. We still deal with whatever is rolled out (yay, continuous deployment). We fully embrace the "ah, they'll get used to it" aspect. If the spike doesn't drop, that's when you have this kind of situation.
 
 I have ownership access to github/github, I don't know other companies whose support people do. But I have access to read the PRs, to add issues directly to GH. I've read PRs from the designers, I know something about how they work. This made me understand what was important, and comfortable to share this.
 
@@ -136,4 +136,4 @@ I have ownership access to github/github, I don't know other companies whose sup
 
 These situations can be stressful, which means we need to able to stay calm and pragmatic. Personally, whenever I start to realize I'm losing my cool, I turn to animated gifs. You have to find your own power gif., but I'll leave you with my favorite.
 
-I've left extra time for questions, because I've gotten pretty good at responding to questions. 
+I've left extra time for questions, because I've gotten pretty good at responding to developers' questions. Come at me, bro.
