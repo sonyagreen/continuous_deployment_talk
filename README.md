@@ -30,7 +30,7 @@ So we make it easy for the developer to see what's wrong and fix it fast.
  * duplicate & recreate steps bug
  * make sure it's not user error or something like an unsupported browser (*we once had a user report a site bug ... when we asked what browser, they told us: the Wii browser ... which technically is Opera, which isn't one of our supported browsers.)
 
-Support people have analytical skills (or, as I prefer to think of it, spidey sense) We know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) Unless YOU'RE looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
+Support people have analytical skills. We know when looking at two seemingly unrelated support requests, and seeing the connection. (Because bug symptoms can be weeeird.) Unless YOU'RE looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
 
 As a developer, if you have this great bug report in front of you:
 * you can start to see what needs to be fixed
