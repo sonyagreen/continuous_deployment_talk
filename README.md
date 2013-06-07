@@ -86,7 +86,7 @@ Turns out, they loved it * *
 
 They jumped on bug fixes right away, and started a conversation about how to address the readability problems.
 
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. * aaaand *
+What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. Went from * to *
 
 Now, we don't often roll back big visible UI changes, so it's impressive. They did what was right for users, not what they wanted. I'm proud of them. 
 
