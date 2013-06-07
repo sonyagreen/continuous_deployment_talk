@@ -1,6 +1,6 @@
 ## Intro
 
-Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 3.5 million accounts on GitHub, and we get something like 300 new support requests per day, and we reply on average to 550 times. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
+Hi! I'm Sonya. I work on the GitHub support team. So you have some sense of what our support team does, we answer support requests (by email, no phone or chat), mostly from GitHub users, and some potential users. There are 4 million accounts on GitHub, and we get something like 300 new support requests per day, and we reply on average to 550 times. We have 14 supportocats (on any one day, there are about 10 answering support requests). I'm here to talk with you about GitHub's continuous deployment workflow, how support fits into it, and a couple of interesting things we've learned.
 
 ## You should give a fuck about what I'm about to talk about because
 
@@ -23,7 +23,7 @@ GitHub support often writes up bug reports (at GitHub, we use our Issues feature
 
 Support is inherently motivated to track down bugs and write really good bug reports. Why? 
 * we start seeing bugs reported from users
-* users give us valuable clues in how they describe what's wrong (well, from our users we get annotated screenshots and ¿output dumps?)
+* users give us valuable clues in how they describe what's wrong (well, from our users we get annotated screenshots and terminal outputs)
 * support wants to fix bugs fast (stop the flow of reports of the same problem from many people; get to reply to users who reported the bug, get to say "it should be fixed now")
 
 So we make it easy for the developer to see what's wrong and fix it fast. 
