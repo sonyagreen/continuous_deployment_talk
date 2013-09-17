@@ -50,6 +50,13 @@ We ship really big features too
 example is the contributions graph*
 we are looped into the pull request before it's done
 can dogfood it, become familiar
+Seen Dollhouse?*
+We have the users downloaded in our heads
+Know what trips them up
+What language is confusing
+Perform a UX role
+We didn't force this, devs started inviting us in
+proved our usefulness
 
 support team has access to all the code and issues 
 in the owner's team
@@ -63,8 +70,9 @@ good support = being as honest as we can with our users
 Part of Support's job is writing up bug reports
 Issues = bug tracking
 
-Support is inherently motivated to track down bugs and write really good bug reports. Why? 
-* we start seeing bugs reported from users
+Support is inherently motivated to track down bugs
+write really good bug reports. Why? 
+* we see bugs reported from users
 * each use case give us clues (well, from our users we get annotated screenshots and terminal outputs)
 * support wants to fix bugs fast 
 staunch the flow of  new reports of the same bug
@@ -228,8 +236,9 @@ don't need to understand GitHub's code
 
 Together, you can then fix bugs faster and get on to the next adventure.
 
-Situations like a the story I told can be stressful
+Situations like in the story I told can be stressful
 ways to keep yourself at your best
+remind you of the bigger picture
 
 Along with low ego and pragmatic talk
 Pro Tip™
