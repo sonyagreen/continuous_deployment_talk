@@ -1,3 +1,6 @@
+slides
+Fix hot stats
+
 ## Intro
 
 Hi! I'm Sonya. I work on the GitHub support team.
@@ -23,7 +26,7 @@ At GitHub, the support team is part of the continuous deployment workflow.
 * async - always someone around in chat to help even if you've signed off
 * pace can be fast
 
-But here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate.
+But here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate... with low ego. GitHub hires for low ego. People need to be able to talk pragmatically about what's going on. It can be really hard to scrutinize hard work you've done -- like calling your baby ugly.
 
 We ship little things all the time.*
 (I deployed https://github.com/github/github/pull/11824 which should fix some archive issues (zip / tar downloads). If you see any problems around generating repo archives in the next couple days ping me.)
@@ -98,7 +101,7 @@ example: "normal" support load for a new, big feature
 * people can really hate when things change. When you update to something new, inevitably someone will say "I LOVED the old way, you need to go back to the old way".
 * long tail of complicated bugs, workflows that were affected, people on vacation/casual users
 
-Here's another secret: we really, really try to have low ego about bugs. In fact, GitHub hires for low ego. People need to be able to talk pragmatically about what's going on. It can be really hard to scrutinize hard work you've done -- like calling your baby ugly. To illustrate this point, I'm going to tell you a little story. 
+Secret of low ego. I'm going to tell you a little story. 
 
 something we figured out to do 
 a feature that surprised us with the amount of support responses
@@ -131,46 +134,90 @@ Bugs and bugs and complaints and complaints and complaints.)
 (Data was emotional
 Users who care are users who swear.)
 
-in a way that wasn't going to overwhelm or give a knee-jerk reaction of inflexbility as well. *They didn't need to read things like this. Digestible. Instead of immediately opening 8 different issues (which never goes over well), we condensed into one document. I've taken to calling this a dossier*. 
+not overwhelm or give a knee-jerk reaction 
+that leads to inflexbility
+Digestible - for us and them
+Taking time to sort meant we didn't write issues that were wrong
+or missing context we hadn't discovered yet
+condensed everything useful one document. 
+I've taken to calling this a dossier*. 
 
 So, here's how we fixed it
 
-First*, we compiled list of what seemed to clearly be bugs. This is the softball lob for the developers, there are easily identifiable actions to take to fix this.
+First* bug list
+easily identifiable actions
+usual method of bug report (recreate, screenshots, link to use cases, emoji, appropriate meme)
 
-Second*, we complied information about the biggest UI complaint: that the label colors were too pastel, and the background grey, which is all fine et dandy if you're on a giant retina display, but maybe not on a smaller, older screen. 
+Second* biggest UI complaint: that the label colors were too low contrast
 
-There's something to know here. To convey a problem in a way that is gripping, use stats and stories. Stats are important*, but fall flat on their own. (side note: these are links to our support system, called Halp)
+Not exactly a bug report. 
+When writing this: stats and stories
 
-The other part is what is called "when it hits you right in the feel"* -- when a user's explanation of the problem is more eloquent than what you could describe. It means more, coming from an actual user, an actual person out there.
+Stats: hard numbers, "one" vs "a few" vs "hundreds"
 
-We dogfood github (we use the product we make every day), but we're not the majority. None of us are, which is a reason to find a way to keep your finger on the pulse of your actual users.
+Compelling stories
+more eloquent than what you could describe
+an actual person out there.
 
-This dossier was written up so support could summarize everything, get a sense of the landscape. I was super nervous about showing this to the design team. I figured we could just keep it to ourselves, and it was still useful. But, I fuckin' shipped it. I made it available to the GitHub design team (our workflow is that we have a private repository called support/ which we use to spec out potential clusters of tickets that may be a problem, and we can @mention a team (like @design) to send them all a notification of it). I was worried that the design team loved their work so much, that this would feel like a hit over the head, harmful and distracting rather than helpful, but ... 
+We dogfood github, but we're not the majority. 
+Just one weirdo edge case
+
+Dossier written for Support 
+Unsure about sharing it
+(workflow - private repository called /support/ which we use to spec out potential clusters of tickets that may be a problem, and we can @mention a team (like @design) to send them all a notification of it). 
+Worry that the design team would hold firm to design/
+Not want to consider changes to what they just shipped
+harmful and distracting rather than helpful, but ... 
 
 Turns out, they loved it * *
 
-They jumped on bug fixes right away, and started a conversation about how to address the readability problems.
+They jumped on bug fixes right away
+started a conversation about how to address the readability problems.
 
-What came of all this? Having a low-angst dossier with lots of places to dig in and discuss how users were responding to the new UI update meant that the design team were able to assess it with minimal ego, and make the best decisions. They fixed the bugs. They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. Went from * to *
+Low-angst dossier 
+lots of places to dig in / discuss 
+brought minimal ego
+They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. Went from * to *
 
 Now, we don't often roll back big visible UI changes, so it's impressive. They did what was right for users, not what they wanted.
 
-*Here's GitHub. I'm proud of them. These are a bunch of people who work really hard to truly collaborate, and do it in really fun ways.
+*Here's GitHub. 
+GitHub allows room for support
+prove ourselves as useful contributors
+rather than back-room uncaring email robots.
 
-Support's job is to champion for the users, in ways that best make sense ot the developers. Our empathy goes both directions - to our users, and to our developers. We're motivated to write up excellent bug reports, because that makes the developers happy, and more likely to fix them sooner, which is good for the users! It is an awesome, supportive cycle.
+Support's job is to champion for the users AND developers
+empathy goes both directions
+motivated to write up excellent bug reports> 
+makes the developers happy>
+more likely to fix them sooner>
+good for the users! 
+It is an awesome, supportive cycle.
 
 ## Reasons why I did this
 
-So, if you have a support team, consider how you can work together. The incoming skill level for support varies widely, but any good support person can learn the analytical skills to become a bug hunter. You can leverage their inherent knowledge of your users. Get that knowledge about your bugs out of their heads.
+Any good support person can learn the analytical skills to become a bug hunter. You can leverage their inherent knowledge of your users. Get that knowledge about your bugs out of their heads.
 
-From the perspective of support, honestly, it's hard to want to write up a good bug report when there are other support requests piling up, but you can make love you <3 you for it, by thanking them for the help, by fixing things fast or at least letting them know why you can't. This makes support able to return to those users and either get to deliver good news (which is something we love), or be able to manage the users' expectations in the reply.
+On fixing those sticky problems
+check your ego
+talk pragmatically
+you don't change
+everyone wins by knowing the deal/being on same page
 
-I want you to know, I don't know how to code, and I didn't need to understand GitHub's code to be able to do my job well. Your support team, however they're working with you, however technical their knowledge, can work with you.
+Your support team
+however technical 
+can work with you. 
+I don't know how to code
+don't need to understand GitHub's code
 
 Together, you can then fix bugs faster and get on to the next adventure.
 
-On fixing those sticky problems like our UI change, remember that when you can check your ego, you can talk pragmatically. This means you can discuss problems well. If you can stay open-minded about what needs to happen next, and not get distracted about saving your baby, you can look a problem and feel like it was worth discussing, even if you don't change a thing.
+Situations like a the story I told can be stressful
+ways to keep yourself at your best
 
-Situations like a the story I told can be stressful, which means we need to able to stay calm and pragmatic. 
-
-So here's my Pro Tip™: whenever I start to realize I'm losing my cool, I turn to animated gifs. Now, you have to find your own power gif., but I'll leave you with my favorite.
+Along with low ego and pragmatic talk
+Pro Tip™
+animated gifs modern equivalent to fish tank
+lower blood pressure
+find your own power gif
+share mine
