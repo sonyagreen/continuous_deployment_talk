@@ -22,66 +22,83 @@ suggest solutions
 "hey, we get bugs too!"
 
 At GitHub, the support team is part of the continuous deployment workflow.
-* ship something, +support chat room
-* async - always someone around in chat to help even if you've signed off
+* async - always supportocat & Dev in chat 
+* it's your project, but you need to sleep
 * pace can be fast
 
-But here's our secret to continuous deployment big and small, and to supporting it happily: developers and support collaborate... with low ego. GitHub hires for low ego. People need to be able to talk pragmatically about what's going on. It can be really hard to scrutinize hard work you've done -- like calling your baby ugly.
+But here's our secret to continuous deployment big and small
+developers and support collaborate... with low ego. 
+GitHub hires for low ego. 
+talk pragmatically about what's going on
+hard to scrutinize work you've done -- like calling your baby ugly
+mutual respect abound
+support isn't a second-class citizen
+we've worked hard to prove we're helpful
 
 We ship little things all the time.*
 (I deployed https://github.com/github/github/pull/11824 which should fix some archive issues (zip / tar downloads). If you see any problems around generating repo archives in the next couple days ping me.)
+Campfire + stars = shift log
 
-.We don't know until they've shipped
+We don't know until they've shipped
 We don't need to know about them beforehand
+Too much noise
+Too much drag on devs
 Up to the dev's discretion
 We all want to not bother each other, so we're motivated.
 
 We ship really big features too 
-example is the contributions graph
+example is the contributions graph*
 we are looped into the pull request before it's done
-can dogfood it
+can dogfood it, become familiar
 
-Another way we collaborate is that the support team has access to all the code and issues. 
+support team has access to all the code and issues 
+in the owner's team
 we have access to PRs, so even if we don't read code, we can read the associated comments and discussion
 gives HUGE context  
 in debugging
-and what to tell the user.
+and what to tell the user
+good support = being as honest as we can with our users
+(because they're devs, we can go pretty deep with them)
 
-GitHub support often writes up bug reports (at GitHub, we use our Issues feature for bug tracking).
+Part of Support's job is writing up bug reports
+Issues = bug tracking
 
 Support is inherently motivated to track down bugs and write really good bug reports. Why? 
 * we start seeing bugs reported from users
-* users give us clues in how they describe what's wrong (well, from our users we get annotated screenshots and terminal outputs)
-* support wants to fix bugs fast (stop the flow of reports of the same problem from many people; get to reply to users who reported the bug, get to say "it should be fixed now")
+* each use case give us clues (well, from our users we get annotated screenshots and terminal outputs)
+* support wants to fix bugs fast 
+staunch the flow of  new reports of the same bug
+knock out open tickets
 
-So we make it easy for the developer to see what's wrong and fix it fast. 
- * duplicate & recreate steps bug
- * make sure it's not user error or something like an unsupported browser (*we once had a user report a site bug ... when we asked what browser, they told us: the Wii browser ... which technically is Opera, which isn't one of our supported browsers.)
-
+So we make it easy for the developer to see what's wrong and fix it fast*.
+* describe it
 Support people have analytical skills. 
-two seemingly unrelated support requests
+two un-identical support requests
 seeing the connection
-Unless YOU'RE looking at the support requests, you wouldn't necessarily see this. (Props to all of you who are developing a project where you're also supporting it.) 
+Unless YOU'RE looking at the support requests, you wouldn't necessarily see this.
 
+ * duplicate & recreate steps
 As a developer, if you have this great bug report in front of you:
 * you can start to see what needs to be fixed
-* you may feel relief to not have to reproduce or document it
-* more likely to care about the bug (because we've shown we already care by writing it up carefully, and by showing the users care)
+* it's been documented, easy to recreate
+
+* more likely to care about the bug (because we've shown we already care by writing it up lovingly, and by showing the users care)
+ * make sure it's not user error or something like an unsupported browser 
+(*we once had a user report a site bug ... when we asked what browser, they told us: the Wii browser ... which technically is Opera, which isn't one of our supported browsers.)
 
 It takes effort on our part to write up great bug reports
 less time overall
 developers find what's important and they fix things fast. 
 That means happier users
 less work for us 
-stems the flow of incoming support requests
-surprise with adeptness
+surprises and delights users
+important to look adept with our userbase
 
 Your support team can do this. 
-don't need access to the code, 
+they don't need access to the code, 
 don't need to have a technical background
 already looking at user-reported problems all day
-pattern recognition skills = supportQA skills
-Learn from it:
+pattern recognition skills = supportQA superpower
 understand the difference between 
 a true bug:
 when code intent and experience are two different things
@@ -93,23 +110,25 @@ luxury of shared information
 PRs
 Issues
 our support system
-Transparency means we all can know what's going on. 
+asynchronous nature of GH leads to transparency and lots of comm
+we all can know what's going on
 
 Back to that continuous deployment
-example: "normal" support load for a new, big feature
+example: "normal" support load for a new, big feature*
 * figured out legit bugs, get on those
 * people can really hate when things change. When you update to something new, inevitably someone will say "I LOVED the old way, you need to go back to the old way".
 * long tail of complicated bugs, workflows that were affected, people on vacation/casual users
 
-Secret of low ego. I'm going to tell you a little story. 
+Make a point with a story
+Secret of low ego.
 
 something we figured out to do 
 a feature that surprised us with the amount of support responses
 you think is going to be easy to support,
-surprised by the depth and breadth of bugs and functionality.
+surprised by the depth and breadth of bugs and functionality issues.
 
-UI update to GitHub Issues.
-This is what was originally rolled out.
+UI update to GitHub Issues.*
+This is what was originally rolled out.*
 
 Within hours of the deployment
 steady stream of feedback
@@ -120,25 +139,22 @@ usual reports of straight-up bugs
 a LOT of general I-liked-it-the-way-it-was comments ... again, this is pretty standard
 mixed in were also concerns about the lack of readability
 not a bug
-legitimate cause for thought -- majority vs hubbers.
-(tangent: majority meaning majority, not majority and each of their ind. weirdo workflows)
+legitimate cause for thought
+PR shows consensus, desire for these UI changes
 
-we needed a way to look at:
-(Sorting a lot of data
-Bugs and bugs and complaints and complaints and complaints.)
-* inflexible thinking
+Support needed a way to look at:*
+Sorting a lot of data
+Bugs and bugs and complaints and complaints and complaints.
+* inflexible thinking*
 * also totally reasonable concerns
-* from humans (our humans, our users)
-* that was emotional
 
-(Data was emotional
-Users who care are users who swear.)
-
-not overwhelm or give a knee-jerk reaction 
+not feel overwhelmed or have a knee-jerk reaction
 that leads to inflexbility
-Digestible - for us and them
-Taking time to sort meant we didn't write issues that were wrong
-or missing context we hadn't discovered yet
+Digestible
+Saturday meant low numbers, also assumed lower attention from Hubbers
+Taking time to sort 
+issues had lots of data to go with it
+no missing context we hadn't discovered yet
 condensed everything useful one document. 
 I've taken to calling this a dossier*. 
 
@@ -146,38 +162,38 @@ So, here's how we fixed it
 
 First* bug list
 easily identifiable actions
-usual method of bug report (recreate, screenshots, link to use cases, emoji, appropriate meme)
+usual method of compelling bug report (recreate, screenshots, link to use cases, emoji, appropriate meme)
 
 Second* biggest UI complaint: that the label colors were too low contrast
 
-Not exactly a bug report. 
+bug report not appropriate
 When writing this: stats and stories
 
-Stats: hard numbers, "one" vs "a few" vs "hundreds"
+Stats: hard numbers, "one" vs "a few" vs "hundreds"*
+Trap of support, seeing one bug report and sky is falling
 
-Compelling stories
+Compelling stories**
 more eloquent than what you could describe
 an actual person out there.
 
-We dogfood github, but we're not the majority. 
-Just one weirdo edge case
-
-Dossier written for Support 
-Unsure about sharing it
+Dossier written for myself, in /Support 
 (workflow - private repository called /support/ which we use to spec out potential clusters of tickets that may be a problem, and we can @mention a team (like @design) to send them all a notification of it). 
-Worry that the design team would hold firm to design/
+Unsure about sharing it
+never done this before
+wall of text
+Worry that the design team would hold firm to design,
 Not want to consider changes to what they just shipped
 harmful and distracting rather than helpful, but ... 
 
 Turns out, they loved it * *
-
+On a Saturday, 2 hours later
 They jumped on bug fixes right away
 started a conversation about how to address the readability problems.
 
 Low-angst dossier 
 lots of places to dig in / discuss 
 brought minimal ego
-They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to roll back the label color change. Went from * to *
+They discussed the label colors, iterated on the design to benefit readability ... and ultimately, days later, decided to significantly change the design. Went from * to *
 
 Now, we don't often roll back big visible UI changes, so it's impressive. They did what was right for users, not what they wanted.
 
